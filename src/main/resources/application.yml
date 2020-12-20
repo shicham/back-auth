@@ -5,7 +5,7 @@ spring:
   application:
     name: back-auth
   datasource:
-    url: jdbc:postgresql://localhost:5432/crm?currentSchema=security&useSSL=false
+    url: jdbc:postgresql://51.68.44.179:5432/crm?currentSchema=security&useSSL=false
     username: crm_1
     password: BVfBymMVpTVZ
     driver-class-name: org.postgresql.Driver

@@ -1,6 +1,10 @@
 spring:
   application:
     name: back-auth
+
+server:
+  port: 9000
+  
   datasource:
     url: jdbc:postgresql://localhost:33306/crm?currentSchema=security&useSSL=false
     username: crm_1

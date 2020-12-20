@@ -12,6 +12,7 @@ spring:
   jpa:    
     hibernate:
       dialect: org.hibernate.dialect.PostgreSQLDialect
+    properties:
       show_sql: true
       hbm2ddl:
         auto: create

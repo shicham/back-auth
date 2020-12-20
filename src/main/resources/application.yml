@@ -12,13 +12,12 @@ spring:
   jpa:    
     hibernate:
       dialect: org.hibernate.dialect.PostgreSQLDialect
-    properties:
-      hbm2ddl:
-        auto: create
+    hbm2ddl:
+      auto: create
     show_sql: true
 logging:
  level:
-  org.springframework: DEBUG
+  org.springframework: INFO
 eureka:
   instance:
     leaseRenewalIntervalInSeconds: 5

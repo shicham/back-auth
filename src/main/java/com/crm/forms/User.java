@@ -27,13 +27,13 @@ public class User {
 
     private String resetPasswordKey;
 
-    private Set<GrantedAuthority> authorities;
+    Collection<GrantedAuthority> authorities = new ArrayList<>();
 
     public User(){
         super();
     }
 
-    public User(String username,String password,Set<GrantedAuthority> authorities){
+    public User(String username,String password,Collection<GrantedAuthority> authorities){
         this.authorities = authorities;
         this.username = username;
         this.password = password;

@@ -1,5 +1,7 @@
 package com.crm;
 
+import com.crm.commun.configs.ServerApplication;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -8,7 +10,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class AuthServer {
+public class AuthServer  extends ServerApplication{
 
 	public static void main(String[] args) {
 		SpringApplication.run(AuthServer.class, args);

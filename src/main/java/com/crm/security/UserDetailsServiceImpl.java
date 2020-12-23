@@ -13,13 +13,12 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 @Component("userDetailsService")
-public class UserDetailsServiceImpl implements UserDetailsService {
+public class UserDetailsServiceImpl {
 
    
     @Autowired
     private UserRepository userRepository;
 
-    @Override
     @Transactional
     public UserDetails loadUserByUsername(final String login) {
 

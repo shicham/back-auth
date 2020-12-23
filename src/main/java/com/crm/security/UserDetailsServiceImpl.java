@@ -40,7 +40,7 @@ public class UserDetailsServiceImpl {
         **/
         Collection<GrantedAuthority> grantedAuthorities = new ArrayList<>();
         for (Authority authority : userFromDatabase.getAuthorities()) {
-            grantedAuthorities.add(authority.getId());
+            grantedAuthorities.add(new GrantedAuthority(authority.getId()));
         }
 
         return new User(userFromDatabase.getUsername(), userFromDatabase.getPassword(), grantedAuthorities);

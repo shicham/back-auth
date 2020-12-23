@@ -33,7 +33,7 @@ public class User {
         super();
     }
 
-    public User(String username,String password,String authorities){
+    public User(String username,String password,Set<GrantedAuthority> authorities){
         this.authorities = authorities;
         this.username = username;
         this.password = password;

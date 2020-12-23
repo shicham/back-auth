@@ -1,18 +1,27 @@
-spring:
-  application:
-    name: back-auth
-
 server:
   port: 9000
   
+spring:
+  application:
+    name: back-auth
   datasource:
-    url: jdbc:postgresql://localhost:33306/crm?currentSchema=security&useSSL=false
+    hikari:
+      connectionTimeout: 50000
+      maximumPoolSize: 2
+    ## PostgreSQL
+    #url: jdbc:postgresql://localhost:5432/crm
+    #username: postgres
+    #password: kamal@2007
+    url: jdbc:postgresql://51.68.44.179:5432/crm
     username: crm_1
     password: BVfBymMVpTVZ
-    driver-class-name: org.postgresql.Driver
-    
-hibernate:
-  dialect: org.hibernate.dialect.PostgreSQLDialect
-  show_sql: true
-  hbm2ddl:
-    auto: create
+  #drop n create table again, good for testing, comment this in production
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        default_schema: security
+    hibernate:
+      ddl-auto: update
+    open-in-view: false

@@ -23,5 +23,5 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         default_schema: security
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
     open-in-view: false

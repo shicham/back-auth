@@ -20,7 +20,7 @@ public class UserDetailsServiceImpl {
     private UserRepository userRepository;
 
     @Transactional
-    public UserDetails loadUserByUsername(final String login) {
+    public User loadUserByUsername(final String login) {
 
         
         String lowercaseLogin = login.toLowerCase();

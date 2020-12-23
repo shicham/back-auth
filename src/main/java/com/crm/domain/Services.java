@@ -4,11 +4,13 @@ import javax.persistence.*;
 import lombok.Data;
 @Entity
 @Data
-public class Authority {
+public class Services {
 
     @Id
     private String id;
 
     private String name;
+
+    
 
 }

@@ -2,6 +2,12 @@ server:
   port: 9000
 api:
   version: 1.0.0
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+  client:
+    serviceUrl:
+      defaultZone: http://51.68.44.179:8700/eureka/
 spring:
   application:
     name: back-auth

@@ -70,9 +70,6 @@ public class StringTools {
 
     }
 
-    public static String toDate(Date strDate)  {
-        return new SimpleDateFormat(YYYY_MM_DD).format(strDate);
-    }
 
     public static long getDifferenceDays(Date d1, Date d2) {
         long diff = d2.getTime() - d1.getTime();

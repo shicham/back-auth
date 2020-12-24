@@ -1,8 +1,8 @@
 package com.crm.repository;
 
-import com.crm.domain.Authority;
+import com.crm.domain.AuthorityEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AuthorityRepository extends JpaRepository<Authority, String> {
+public interface AuthorityRepository extends JpaRepository<AuthorityEntity, String> {
 
 }

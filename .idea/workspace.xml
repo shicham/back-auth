@@ -16,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -41,6 +42,49 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.crm.forms" />
+      <recent name="com.crm.controller" />
+      <recent name="com.crm.repository" />
+      <recent name="com.crm.domain" />
+      <recent name="com.crm.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AuthServer">
+    <configuration name="AuthServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crm.AuthServer" />
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crm.commun.tools.DateTools" />
+      <module name="auth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crm.commun.tools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthServer" />
+        <item itemvalue="Application.DateTools" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,21 +97,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608475813744">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1608822830587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608475813744" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608475813744">
+    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1608822830587" />
+    <state x="170" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608825330410">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608475813744" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608475813744">
+    <state x="170" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1608825330410" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608804351270">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608475813744" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608475813744">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1608804351270" />
+    <state width="1237" height="151" key="GridCell.Tab.0.bottom" timestamp="1608829099819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608475813744" />
+    <state width="1237" height="151" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608829099819" />
+    <state width="1237" height="151" key="GridCell.Tab.0.center" timestamp="1608829099819">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="151" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608829099819" />
+    <state width="1237" height="151" key="GridCell.Tab.0.left" timestamp="1608829099819">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="151" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608829099819" />
+    <state width="1237" height="151" key="GridCell.Tab.0.right" timestamp="1608829099819">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="151" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608829099819" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package com.crm.domain;
 
+import java.time.LocalDate;
 import java.util.Set;
 import java.util.Date;
 import javax.persistence.*;
@@ -21,7 +22,7 @@ public class UserEntity {
 
     private Date lastLogin;
 
-    private Date expiredAt;
+    private LocalDate expiredAt;
 
     private Date deletedAt;
 
@@ -35,7 +36,7 @@ public class UserEntity {
 
     @ManyToMany
     @JoinTable(name = "user_authority", joinColumns = @JoinColumn(name = "username"), inverseJoinColumns = @JoinColumn(name = "authority"))
-    private Set<Authority> authorities;
+    private Set<AuthorityEntity> authorities;
 
     
 

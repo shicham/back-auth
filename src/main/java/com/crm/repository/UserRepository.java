@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 public interface UserRepository extends JpaRepository<UserEntity, String> {
 
-    @Query("SELECT u FROM User u WHERE LOWER(u.username) = LOWER(:username)")
+    @Query("SELECT u FROM UserEntity u WHERE LOWER(u.username) = LOWER(:username)")
     UserEntity findByUsernameCaseInsensitive(@Param("username") String username);
 
     @Query

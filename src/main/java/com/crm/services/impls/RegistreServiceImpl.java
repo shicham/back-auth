@@ -36,7 +36,7 @@ public class RegistreServiceImpl implements RegistreService {
         userEntity.setExpiredAt(DateTools.addMonth(LocalDate.now(),6));
         userEntity.setActivatedAt(new Date());
         userEntity.setCreatedAt(new Date());
-        userEntity.getAuthorities().add(new userEntity)
+        
         System.out.println("eeeeeeeeeee");
         userRepository.save(userEntity);
         Registre registre = new Registre();

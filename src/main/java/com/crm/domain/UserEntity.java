@@ -17,6 +17,12 @@ public class UserEntity {
     private String password;
 
     private String email;
+    
+    private String recoveryEmail;
+    
+    private String recoveryPhone;
+    
+    private boolean loginByPhone;
 
     private Date createdAt;
 

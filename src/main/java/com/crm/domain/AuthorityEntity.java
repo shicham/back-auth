@@ -9,5 +9,6 @@ public class AuthorityEntity {
     @Id
     private String id;
     private String name;
+    private String parent;
 
 }

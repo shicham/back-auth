@@ -15,5 +15,7 @@ public class UserTokenEntity {
     private String username;
     private String token;
     private Date expireAt;
+    private Date createdAt;
+    private Date updatedAt;
 
 }
